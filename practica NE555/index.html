@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">555</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/MS.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Mario E. Cuan Rivera y Sebastián Rodríguez Zapata</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 15/ago/24</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/ne555.png" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En este proyecto de 555, integramos un temporizador 555 con un Arduino Uno para controlar el parpadeo de un LED. El objetivo principal fue utilizar el 555 en modo astable para generar una señal de pulso que controla el encendido y apagado del LED a intervalos regulares..</p>                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">En este proyecto práctico se utilizó el temporizador 555 para generar una señal de control que permite el encendido y apagado de un LED. El temporizador 555 es un circuito integrado ampliamente utilizado en diversas aplicaciones de temporización y generación de pulsos. El objetivo de esta práctica fue diseñar, construir y probar un circuito utilizando el 555 en modo astable, controlado por componentes externos como resistencias, capacitores y un potenciómetro.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4"></p>
+                        <p class="fs-6 mb-4">-Arduino Uno</p>
+                        <p class="fs-6 mb-4">-Temporizador 555</p>
+                        <p class="fs-6 mb-4">-Resistencias</p>
+                        <p class="fs-6 mb-4">-Condensadores </p>
+                        <p class="fs-6 mb-4">-LED</p>
+                        <p class="fs-6 mb-4">-Protoboard y cables de conexión</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">El proyecto se centró en el diseño de un circuito basado en el temporizador 555, que genera una señal de onda cuadrada para controlar el parpadeo de un LED. Se utilizaron componentes pasivos, como resistencias y capacitores, para ajustar la frecuencia del parpadeo. Además, se incluyó un potenciómetro para variar manualmente esta frecuencia, proporcionando un control dinámico sobre la velocidad del parpadeo del LED.</p>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4"></p>
+                            
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/foto1.jpeg" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/foto 2.jpeg" alt="..." /></figure>
+
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">El diseño del circuito incluyó los siguientes componentes:</p>
+                            <p class="fs-6 mb-4">-555 IC en configuración astable para generar la señal de salida.</p>
+                            <p class="fs-6 mb-4">-LED para visualizar la señal generada.</p>
+                            <p class="fs-6 mb-4">-Potenciómetro para ajustar la frecuencia.</p>
+                            <p class="fs-6 mb-4">-Resistencias y capacitores para definir los tiempos de carga y descarga, que determinan la frecuencia de la señal.</p>
+
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">En la construcción se montó el circuito en una protoboard. Las imágenes adjuntas muestran el montaje del temporizador 555 junto con el potenciómetro, resistencias, capacitores y el LED.    </p>
+                            <p class="fs-6 mb-4">-En la primera imagen se puede observar el cableado detallado para la correcta configuración del temporizador en modo astable.</p>
+                            <p class="fs-6 mb-4">-La segunda imagen muestra una versión más simplificada del montaje, donde se incluye el potenciómetro para el ajuste de frecuencia.</p>
+
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">El circuito funcionó como se esperaba. El temporizador 555, en su configuración astable, generó una señal de onda cuadrada que permitió que el LED parpadeara a una frecuencia controlada. Al ajustar el potenciómetro, se pudo observar cómo la frecuencia de parpadeo aumentaba o disminuía, lo que demostró el correcto funcionamiento del temporizador y la sensibilidad del circuito a los valores de resistencia y capacitancia.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">El temporizador 555 es una herramienta eficiente y versátil para generar señales de control en proyectos de electrónica. En este proyecto, se comprobó la facilidad con la que se puede utilizar para controlar el parpadeo de un LED mediante una señal de onda cuadrada. La capacidad de ajustar la frecuencia del parpadeo con un potenciómetro proporcionó una excelente práctica en el manejo de señales astables. </p>
+                        <p class="fs-6 mb-4">Este proyecto demuestra la utilidad del 555 en aplicaciones simples de control de tiempo y genera una base sólida para su uso en proyectos más complejos.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Girón Nieto H. Clase de introducción a la mecatrónica, 2024</p>
+                        <p class="fs-6 mb-4"> Tinkercad - From mind to design in minutes. (n.d.). Tinkercad. https://www.tinkercad.com/dashboard/activities/iyrIC6b0r9d</p>
+                        <p class="fs-6 mb-4"> </p>
+                        
+                            
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
