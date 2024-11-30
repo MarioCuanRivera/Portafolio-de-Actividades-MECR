@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica APP Bluetooth</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica Carro Bluetooth</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/MS.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Mario E. Cuan Rivera y Sebastián Rodríguez Zapata</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Noviembre 26, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a href="#!"><div class="badge bg-primary bg-gradient rounded-pill mb-2">Arduino</div></a>
+                                    <a href="#!"><div class="badge bg-primary bg-gradient rounded-pill mb-2">Progrmacion</div></a>
+                                    <a href="#!"><div class="badge bg-primary bg-gradient rounded-pill mb-2">Monitor Bluethoot</div></a>
+
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="1000px" src="img/Carrito terminado.jpeg" alt="..." />>
+                    <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Instructable -</h2>
+                    <div class="d-grid py-4 px-4"><a class="btn btn-primary" href="https://www.instructables.com/Carro-Bluetooth/">Instructable</a></div>
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4"> Para esta práctica había que controlar un carro a través de bluetooth con la aplicación de APP inventor desde nuestros
+                            dispositivos móviles.</p>                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Esta práctica se enfoca en controlar dispositivos utilizando tecnología Bluetooth, con Arduino y MIT App inventor como las plataformas principales.</p>
+                        <p class="fs-6 mb-4">El objetivo de esta actividad es desarrollar tanto habilidades técnicas en la programación y configuración de estos dispositivos como entender las numerosas aplicaciones que pueden lograrse al combinar la potencia de Arduino con la flexibilidad de la conectividad Bluetooth.
+                            Así mismo, razonamos los funcionamientos y conexiones que tiene el bluetooth.</p>
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4"> -Arduino UNO</p>
+                        <p class="fs-6 mb-4"> -Modulo bluteooth HC-05</p>
+                        <p class="fs-6 mb-4"> -Protoboard</p>
+                        <p class="fs-6 mb-4"> -Pilas</p>
+                        <p class="fs-6 mb-4"> -Cables macho-macho y hembra-macho</p>
+                        <p class="fs-6 mb-4"> -Puente H L298N</p>
+                        <p class="fs-6 mb-4"> -Motores reductores</p>
+                        <p class="fs-6 mb-4"> -Llantas para los motores reductores</p>
+                        <p class="fs-6 mb-4"> -Rueda loca</p>
+                        <p class="fs-6 mb-4"> -Servomotor</p>
+                        <p class="fs-6 mb-4"> -App inventor</p>
+                        <p class="fs-6 mb-4"> -Corte DXF</p>
+                        <p class="fs-6 mb-4"> -Impresión 3D</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Para poder lograr el desarrollo de esta práctca correctamente primero tuvimos que hacer el diseño visual en App inventor para después 
+                            pasar a los bloques que harán funcionar el sistema dentro de esta misma plataforma.</p>
+                        <p class="fs-6 mb-4"> Después habría que conectar todos los componentes del proyecto entre sí
+                                como lo son la protoboard, el arduino, el puente H, etc. Posteriormente se realizó el código que fue el último detalle para que el carro pudiera funcionar 
+                                de manera eficiente y como lo deseábamos. </p>
+                        
+                    
+                            
+                    
+                            <p id="diseño">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Diseño -</h2>
+                            <p class="fs-6 mb-4">La práctica fue diseñada empleando la plataforma MIT App Inventor, una herramienta intuitiva que facilita el desarrollo de aplicaciones móviles de manera simple y accesible. A través de esta plataforma, se creó una aplicación específica para controlar dispositivos conectados al Arduino mediante Bluetooth; como en este caso, el carro controlado por bluetooth.</p>
+                            <p class="fs-6 mb-4">La aplicación que hace al carrito moverse tiene un diseño simple, el título de para qué sirve esa interfáz,cuenta con
+                                tres botones en la parte superior que, como el nombre de estos indica, sirven para conectar el bluetooth, desconectarlo
+                                y salir de la aplicación. También tiene botones que tienen imagenes
+                                de flechas que, conforme la orientación de las flechas, indica para donde se mueve el carrito. Así mismo también tiene un botón central que sirve para
+                                detener al carrito en cualquier momento. Abajo de las flechas y hay dos botones para poder mover el servomotor, que funciona como una pinza; estos botones 
+                                funcionan para poder abrir y cerrar la pinza. </p>
+                                <p class="fs-6 mb-4">Finalmente, bajo esos botones para mover las pinzas se encuentra una imagen de un gran campeón, "El rayo" Mcqueen.</p>
+
+                            <p id="simulacion ">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Códigos -</h2>
+                                <p class="fs-6 mb-4"> </p>
+                            
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/app inventor cel.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/app inventor bloques.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/Controles app inventor.jpeg" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigo.1.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigo.2.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigo.3.png" alt="..." /></figure>
+
+                            <p id="construccion">
+                                <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Construcción -</h2>
+                            <p class="fs-6 mb-4">Para la construcción de este proyecto, el carro controlado por bluetooth, hubiéron varias etapas. Primero que nada había
+                                que decidir que aspecto tendría el coche; una vez hecho esto diseñamos la base del carro en SolidWorks. Es una base ancha y larga
+                                para que pudieran caber todos los elementos necesarios.</p>
+                            <p class="fs-6 mb-4">Después de desarrollar la base de nuestro carrito era tiempo de ver cómo lo manejaríamos. Como ya se ha mencionado
+                                    a lo largo de este reporte, el carrito funcionaría a través de bluetooth.
+                            <p class="fs-6 mb-4">Era turno de trabajar con MIT App inventor. Aquí desarrollaríamos los controles del carrito y estableceríamos
+                                    los comandos que quisiéramos que se trabajarían junto con el código.</p>
+                                
+                            <p class="fs-6 mb-4">Una vez estuviera lista la base y la interfáz en donde lo manejaríamos, era momento de realizar todo lo que tuviera que ver con las conexiones. Conectamos 
+                                    las enentradas del puente H al arduino, así como también el positivo y negativo de la pila. También, en el puente H, se conectaron
+                                    los dos motores reductores que ocupamos.</p>
+                            <p class="fs-6 mb-4">Al protoboard se conectaron el ground y el positivo, así como también algunos pines del puente H. 
+                                Para el arduino ya solo fue ir viendo en que pines conectar algunos pines del puente H y conectar GND y 5 volts al protoboard.
+                            </p>
+                            <p class="fs-6 mb-4">Los pines del bluetooth se conectaron directamente a los diferentes pines del arduino.</p>
+                            <p class="fs-6 mb-4">El servomotor se conectó a positivo y negativo del protoboard y a un pin del servomotor.</p>
+                            <p class="fs-6 mb-4">Después de ya tener todo conectado era momento de empezar a trabajar con el código. Como mencióne anteriormente,
+                                el código, para que pudiera funcionar con el bluetooth, se trabajó junto con MIT App Inventor. Las letras que puse de entrada en los diferentes botones de App inventor
+                                servían para que, al presionarlos, mandara la señal y pudieran hacer la acción correspondida.
+                            </p>
+                            <p class="fs-6 mb-4">También, en el código, se trabajo con máquinas de estados para que, cuando una llanta recibiera una señal "alta", la otra pudiera recibir
+                                la misma señal"alta" y de esta manera ir para delante o para atrás. Del mismo modo, con la máquina de estados, se trabajo para que, como se explicó
+                                anteriormente, si una llanta recibía una señal "alta" la otra recibiera la señal contraria, "baja", para que pudiera ir para la izquierda o para la derecha.</p>
+                            <p class="fs-6 mb-4">El botón central, que es el que sirve para detener al carrito, se trabajó, de igual manera, con máquina de estados.
+                                    Se recibía la misma señal "baja", en ambas llantas para que pudieran detenerse.</p>
+                            <p class="fs-6 mb-4">Para hacer que las pinzas funcionaran, fue también con App inventor, al darle la señal de una letra en la plataforma mencionada,
+                                la misma letra se reescribe en el código para que pueda funcionar de buena manera; claro que también, al darle el ángulo de qué tanto quería
+                                que se moviera el servo.</p>
+                            
+                            
+                            <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/Corte dxf.jpg" alt="..." /></figure>
+                            <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/Carro desarmado.jpg" alt="..." /></figure>
+                            <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/Carro medio armado.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4"></p>
+                            <figure class="mb-4" align="center"><video width="65%"  controls>
+                                <source src="video/Carro listo.mp4" type="video/mp4">
+                            </video></p></figure>
+                            <figure class="mb-4" align="center"><video width="65%"  controls>
+                                <source src="video/Actividad carro bt.mp4" type="video/mp4">
+                            </video></p></figure>
+                            
+
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Los resultados obtenidos fueron positivos. Logramos que el coche funcionara de la manera esperada, seguía los comandos dados, al igual
+                            que la pinza.
+                        </p>
+                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Como mencioné anteriormente fue un proyecto que salió como esperábamos. Aprendimos a como utilizar el puente H y como
+                            funcionan estos elementos entre si.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Girón Nieto H. Clase de introducción a la mecatrónica, 2024</p>
+
+                        <p id="descargables">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                            <p class="fs-6 mb-4">Descargar ensamble en SolidWorks:<a href="files/Ensamblaje1 Carro.SLDASM">Ensamblaje1 Carro.SLDASMo</a> </p>
+                        
+                      
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
